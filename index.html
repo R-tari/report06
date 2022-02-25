@@ -9,6 +9,128 @@
 </head>
 <body>
     
+
+    <section class="skip-menu">
+        <a href="#">
+            HOME
+        </a>
+    </section>
+
+    <div class="pop-container">
+        <section class="popup dis-none app" id="popup-cookie">
+            <div class="in">
+                <h2>모바일 APP설치하고 10%할인쿠폰받자!!</h2>
+                <p>
+                    지금 바로 App store 및 Play store에서 JUST 어플 다운받고
+                    <br>
+                    10% 할인쿠폰을 가져가세요!
+                </p>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none login" id="popup-cookie">
+            <div class="in">
+                <h2>자동로그인이 자꾸 풀려요</h2>
+                <p>
+                    <strong>이 경우에 취해 볼 수 있는 조치는 아래와 같습니다.</strong>
+                    <br>
+                    <br>
+                    ① 쿠키 사용 설정 ON.
+                    <br>
+                    ② 크롬의 쿠키가 사용 설정되어 있는 데도 종료시 로그 아웃되는 경우
+                    <br>
+                    ③ 크롬 초기화 및 재설치
+                </p>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none sold" id="popup-cookie">
+            <div class="in">
+                <h2>품절 배송지연 보상제도</h2>
+                <p>
+                    출고 안내(카카오 알림톡/문자/메일)를 받으신 시점으로부터
+                    <br>
+                    서울은 1일 이내, 지방은 2일 이내에 상품이 도착하지 않았을
+                    <br>
+                    경우 택배 금액 전액을 Just포인트로 적립해 드립니다.
+                </p>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none push" id="popup-cookie">
+            <div class="in">
+                <h2>앱 설치 자동로그인 설정 & 푸시 알림 설정 안내</h2>
+                <p>
+                    원하는 알림에 따라 특정 앱이나 전체 휴대전화의 설정을 변경할 수 있습니다.
+                    <br>
+                    화면 상단에서 아래로 스와이프하면 알림이 표시되며 일부 알림은 잠금 화면이나 홈 화면에도 표시됩니다.
+                </p>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none pri" id="popup-cookie">
+            <div class="in">
+                <h2>
+                    개인정보 처리방침 변경안내
+                    <br> 
+                    (2021년 12월 02일 시행)
+                </h2>
+                <p>
+                    가. 입사전형 진행, 입사 지원서 수정, 합격 여부 확인, 입사 지원자와의 원활한 의사소통
+                    <br>
+                    나. 제휴제안 접수 및 처리결과 회신
+                    <br>
+                    다. 기업윤리상담센터의 상담/신고 접수 및 처리결과 회신
+                    <br>
+                    라. 파트너스 라인 접수, 분쟁조정 신청 및 처리결과 회신
+                    <br>
+                    마. IR 미팅 신청에 따른 본인확인 및 원활한 의사소통 경로 확보         
+                </p>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none white" id="popup-cookie">
+            <div class="in">
+                <h2>
+                    롱슬리브(화이트)
+                </h2>
+                <div class="img-box">
+                    <img src="./images/gallery2.gif" alt="화이트롱슬리브">
+                </div>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none gray" id="popup-cookie">
+            <div class="in">
+                <h2>
+                    롱슬리브(그레이)
+                </h2>
+                <div class="img-box">
+                    <img src="./images/gallery1.gif" alt="그레이롱슬리브">
+                </div>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+
+        <section class="popup dis-none band" id="popup-cookie">
+            <div class="in">
+                <h2>
+                    밴딩팬츠
+                </h2>
+                <div class="img-box">
+                    <img src="./images/gallery3.gif" alt="밴딩팬츠">
+                </div>
+                <button type="button" id="btn-popup">X</button>
+            </div>
+        </section>
+    </div>
+
     <section class="wrap">
         <header class="header">
             <div class="container">
@@ -58,6 +180,14 @@
         <section class="sec-slide">
             <div class="container clearfix">
                 <h2>슬라이더</h2>
+                <div class="btn">
+                    <p>
+                        <span id="prev">◀</span><span id="next">▶</span>
+                    </p>
+                </div>
+                <p class="btn-pager">
+                    <span id="btn-slide01" class="active">1</span><span id="btn-slide02">2</span><span id="btn-slide03">3</span>
+                </p>
                 <div class="slider">
                     
                     <div class="img-box">
@@ -66,24 +196,16 @@
                             <br>
                             계절마다 함께 하기 좋은 붓컷데님 must have denim 
                         </p>
-                        <!-- <img src="./images/slide1.jpg" alt="슬라이드1"> -->
-                        <div class="btn">
-                            <p>
-                                <span>◀</span><span>▶</span>
-                            </p>
-                        </div>
-                        <p class="btn-pager">
-                            <span>1</span><span>2</span><span>3</span>
-                        </p>
+                        
                     </div>
 
                     <div class="img-box">
                         <p class="slide-txt">
-                            WELCOME BENEFIT! 처음이신가요?
+                            <strong>WELCOME BENEFIT!</strong> 처음이신가요?
                             <br>
                             신규가입 혜택
                             <br>
-                            2,000원 할인 + 무료배송 + 카톡플친 5,000쿠폰
+                            2,000원 할인 + 무료배송 + <span class="kakao">카톡플친</span> 5,000쿠폰
                         </p>
                         <!-- <img src="./images/slide2.jpg" alt="슬라이드2"> -->
                     </div>
@@ -103,23 +225,24 @@
 
             </div>
         </section>
+       
         <section class="sec-notice">
             <div class="container">
-                <div class="notice-gallery clearfix">
+                <div class="notice-gallery">
                     <h2 class="notice-tit active">공지사항</h2>
                     <h2 class="gallery-tit">갤러리</h2>
                     <div class="notice">
                         <ul>
-                            <li><a href="#">모바일 APP설치하고 10%할인쿠폰받자!!</a></li>
-                            <li><a href="#">자동로그인이 자꾸 풀려요</a></li>
-                            <li><a href="#">품절 배송지연 보상제도</a></li>
-                            <li><a href="#">앱 설치 자동로그인 설정 & 푸시 알림 설정 안내</a></li>
-                            <li><a href="#">개인정보 처리방침 변경안내 (2021년 12월 02일 시행)</a></li>
+                            <li id="app" class="popon"><a href="#">모바일 APP설치하고 10%할인쿠폰받자!!</a></li>
+                            <li id="login" class="popon"><a href="#">자동로그인이 자꾸 풀려요</a></li>
+                            <li id="sold" class="popon"><a href="#">품절 배송지연 보상제도</a></li>
+                            <li id="push" class="popon"><a href="#">앱 설치 자동로그인 설정 & 푸시 알림 설정 안내</a></li>
+                            <li id="pri" class="popon"><a href="#">개인정보 처리방침 변경안내 (2021년 12월 02일 시행)</a></li>
                         </ul>
                     </div>
                     <div class="gallery"> 
                        <div class="gallery-contents">
-                            <div class="img-box">
+                            <div class="img-box popon" id="gray">
                                 <a href="#">
                                     <img src="./images/gallery1.gif" alt="갤러리1">
                                 </a>
@@ -133,7 +256,7 @@
                             </a>
                         </div>
                         <div class="gallery-contents">
-                            <div class="img-box">
+                            <div class="img-box popon" id="white">
                                 <a href="#">
                                     <img src="./images/gallery2.gif" alt="갤러리2">
                                 </a>
@@ -147,7 +270,7 @@
                             </a>
                         </div>
                         <div class="gallery-contents">
-                            <div class="img-box">
+                            <div class="img-box popon" id="band">
                                 <a href="#">
                                     <img src="./images/gallery3.gif" alt="갤러리3">
                                 </a>
@@ -162,6 +285,7 @@
                         </div>    
                     </div>
                 </div>
+                <div class="line"></div>
                 <div class="banner">
                     <h2>[배너]</h2>
 
@@ -170,15 +294,40 @@
                             <p>
                                 <strong>신규가입 쿠폰팩</strong>
                                 <br>
-                                2,000원+무료배송+<span>카카오 플러스</span>5,000원 쿠폰
+                                2,000원+무료배송+<span class="kakao">카카오 플러스</span>5,000원 쿠폰
                             </p>
                         </div>
-                    </a>
-                   
-                    
+                    </a>  
                 </div>
+                <div class="line"></div>
                 <div class="shortcut">
                     <h2>바로가기</h2>
+                    <div class="shortcut-contents">
+                        <div>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67 105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9 350.3 4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352 208 352C322.9 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640 238.8 554 160 448 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448 176c0 98.62-79.68 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008 92.85-21.98C565.2 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879 .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z"/></svg>
+                                <p>Q&A</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32zM421.7 220.3L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3z"/></svg>                            
+                                <p>Review</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M152 0H154.2C186.1 0 215.7 16.91 231.9 44.45L256 85.46L280.1 44.45C296.3 16.91 325.9 0 357.8 0H360C408.6 0 448 39.4 448 88C448 102.4 444.5 115.1 438.4 128H480C497.7 128 512 142.3 512 160V224C512 241.7 497.7 256 480 256H32C14.33 256 0 241.7 0 224V160C0 142.3 14.33 128 32 128H73.6C67.46 115.1 64 102.4 64 88C64 39.4 103.4 0 152 0zM190.5 68.78C182.9 55.91 169.1 48 154.2 48H152C129.9 48 112 65.91 112 88C112 110.1 129.9 128 152 128H225.3L190.5 68.78zM360 48H357.8C342.9 48 329.1 55.91 321.5 68.78L286.7 128H360C382.1 128 400 110.1 400 88C400 65.91 382.1 48 360 48V48zM32 288H224V512H80C53.49 512 32 490.5 32 464V288zM288 512V288H480V464C480 490.5 458.5 512 432 512H288z"/></svg>                            
+                                <p>Event</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M368 0C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416H48C21.49 416 0 394.5 0 368V48C0 21.49 21.49 0 48 0H368zM416 160V256H544V237.3L466.7 160H416zM160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368zM480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464z"/></svg>                            
+                                <p>배송조회</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -383,5 +532,6 @@
         </footer>
     </section>
 
+    <script src="./js/myscript.js"></script>
 </body>
 </html>
