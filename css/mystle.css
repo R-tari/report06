@@ -125,7 +125,6 @@ h1
    grid-row: 2;
    display:flex;
    flex-flow:column nowrap;
-   /* justify-content: space-evenly; */
    justify-items:center;
    position:absolute;
    left:0;
@@ -135,6 +134,8 @@ h1
    height:0px;
    overflow: hidden;
    background-color:rgba(0,0,0,0.8);
+   transition:0.3s;
+   border-radius: 5px;
 }
 
 
@@ -219,7 +220,7 @@ h1
 
 .slider .img-box:first-child
 {
-    background-image: url(/images/slide1.jpg);
+    background-image: url(https://github.com/R-tari/report06/blob/main/images/slide1.jpg?raw=true);
     background-size:cover;
     background-position:50% 80%;
     
@@ -227,14 +228,14 @@ h1
 
 .slider .img-box:nth-child(2)
 {
-    background-image: url(/images/slide2.jpg);
+    background-image: url(https://github.com/R-tari/report06/blob/main/images/slide2.jpg?raw=true);
     background-size:contain;
     
     
 }
 .slider .img-box:nth-child(3)
 {
-    background-image: url(/images/slide3.jpg);
+    background-image: url(https://github.com/R-tari/report06/blob/main/images/slide3.jpg?raw=true);
     background-size:cover;
     background-position:50% 10%;
     
@@ -434,7 +435,7 @@ h1
     border-radius: 5px;
     overflow: hidden;
     height:100%;
-    background-image: url(/images/slide2.jpg);
+    background-image: url(https://github.com/R-tari/report06/blob/main/images/slide2.jpg?raw=true);
     background-repeat: no-repeat;
     background-size:cover;
     background-position:50% 40%;
